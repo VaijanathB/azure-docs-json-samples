@@ -25,7 +25,7 @@
         },
         "zipFileBlobUri": {
             "type": "string",
-            "defaultValue": "https://github.com/Azure/azure-docs-json-samples/blob/master/custom-providers/_artifacts/functionpackage.zip?raw=true",
+            "defaultValue": "https://github.com/VaijanathB/azure-docs-json-samples/blob/master/custom-providers/_artifacts/functionpackage.zip?raw=true",
             "metadata": {
                 "description": "The URI to the uploaded function zip file"
             }
