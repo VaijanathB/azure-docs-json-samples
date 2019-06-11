@@ -116,20 +116,21 @@
                     }
                 ]
             }
-        },
-        {
-            "apiVersion": "2018-09-01-preview",
-            "type": "Microsoft.CustomProviders/resourceProviders/users",
-            "name": "[concat(parameters('funcName'), '/santa')]",
-            "location": "parameters('location')",
-            "dependsOn": [
-                "[concat('Microsoft.CustomProviders/resourceProviders/',parameters('funcName'))]"
-            ],
-            "properties": {
-                "FullName": "Santa Claus",
-                "Location": "NorthPole"
-            }
         }
+        // ,
+        // {
+        //     "apiVersion": "2018-09-01-preview",
+        //     "type": "Microsoft.CustomProviders/resourceProviders/users",
+        //     "name": "[concat(parameters('funcName'), '/santa')]",
+        //     "location": "parameters('location')",
+        //     "dependsOn": [
+        //         "[concat('Microsoft.CustomProviders/resourceProviders/',parameters('funcName'))]"
+        //     ],
+        //     "properties": {
+        //         "FullName": "Santa Claus",
+        //         "Location": "NorthPole"
+        //     }
+        // }
     ],
     "outputs": {
         "principalId": {
